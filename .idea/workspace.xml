@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="723e56d5-0966-409b-b383-3a7294a2a35e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/shopDataApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/shopDataApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/userApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/userApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navabar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navabar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shopRedux/shopSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shopRedux/shopSaga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/userRedux/userSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/userRedux/userSaga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/httpMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/httpMethods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/test.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +107,7 @@
       <workItem from="1572131815284" duration="2333000" />
       <workItem from="1572249641668" duration="15641000" />
       <workItem from="1572336219747" duration="1966000" />
-      <workItem from="1572648397100" duration="464000" />
+      <workItem from="1572648397100" duration="912000" />
     </task>
     <servers />
   </component>
