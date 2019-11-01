@@ -44,15 +44,15 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\commun" />
-      <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\homepage\item" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\assets\img" />
       <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\utils" />
       <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\signUp" />
       <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\signIn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\commun" />
+      <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\homepage\item" />
     </key>
   </component>
   <component name="RunDashboard">
