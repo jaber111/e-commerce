@@ -6,6 +6,7 @@ import { toastrError} from "../../utils/toastr";
 import { CONST_ACCESS_TOKEN} from "../../utils/const";
 import { CONST_REFRESH_TOKEN} from "../../utils/const";
 import jwt_decode from 'jwt-decode';
+import {listDataApi} from "../../api/shopDataApi"
 
 
 
@@ -19,19 +20,13 @@ function* authentication({ credentials, setErrors }) {
         setToken(CONST_ACCESS_TOKEN, authCredentiels.access_token);
         setToken(CONST_REFRESH_TOKEN, authCredentiels.refresh_token);
         localStorage.setItem("connected",true);
-
+        let data = yield call(listDataApi);
+        console.log(data)
         let decoded = jwt_decode(authCredentiels.access_token);
-        console.log("**********************************************************************************************");
-        console.log(decoded.realm_access.roles);
-        console.log("**********************************************************************************************");
-
-        let permissions = yield call(listItem);
-        console.log(permissions);
 
 
             yield put({
                 type: actionCreator("res", AUTHENTICATE),
-                data: permissions[0],
                 currentUser : decoded.name
             })
     } catch (error) {

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { get, post, put } from "../utils/httpMethods";
+import { get } from "../utils/httpMethods";
 
 export const authenticationApi = user => {
     var formData = new URLSearchParams();

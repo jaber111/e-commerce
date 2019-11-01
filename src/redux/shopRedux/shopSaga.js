@@ -6,14 +6,15 @@ import {actionCreator} from "../../utils";
 function* loadDataSaga() {
   try{
     let data = yield call(listDataApi);
-    if (data.status === 200) {
+    console.log(data.status)
+
+    if (data.status===200) {
       yield put({
         type : actionCreator("res",CartActionTypes.LOAD_SHOP_DATA),
-        ShopData : data.data
+        ShopData : data.shopdata
       })
     }
-  }catch (e) {
-    console.log(e)
+    }catch (e) {
     yield put({ type: actionCreator("fail",CartActionTypes.LOAD_SHOP_DATA), e });
   }
 }

@@ -1,7 +1,7 @@
-import axios from "axios";
+import { get } from "../utils/httpMethods";
 
 
 export const listDataApi = () => {
-    return axios.get("https://my-json-server.typicode.com/jaber111/api_demo/shopdata"
+    return get("http://localhost:8081/items"
     );
 }

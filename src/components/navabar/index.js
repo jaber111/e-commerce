@@ -11,12 +11,13 @@ import avatar from '../../assets/img/avatar.jpg'
 
 const useStyles = makeStyles(theme => ({
     header:{
-    height: "70px",
+    height: "50px",
     width: "100%",
     display: "flex",
     justifyContent: "space-between",
-    marginBottom: "25px",
-    },
+    backgroundColor: "blue",
+
+},
    options: {
        width: "100%",
        height: "100%",

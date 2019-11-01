@@ -5,29 +5,26 @@ import axios from "axios";
 export function get(url, headers = null, params = null) {
   if (!headers) {
     let token = getToken(CONST_ACCESS_TOKEN);
-    console.log(token);
-    headers = {
-      "Content-Type": "application/json"
-    };
+    console.log(token)
+     headers = {};
     if (token) {
+
       headers["Authorization"] = `bearer ${token}`;
     }
-  }
+    console.log(headers["Authorization"]);
 
-  return axios({
-    url,
-    // timeout: 5000,
-    method: "GET",
-    headers,
-    params
-  })
-    .then(response => {
-      return {
-        ...response.data,
-        status: response.status
-      };
-    })
-    .catch(error => error);
+  }
+  return axios.
+  get(url,{
+        method: "GET"
+      ,Headers: {"Authorization" : headers["Authorization"]}})
+      .then(response => {
+        return {
+          ...response.data,
+          status: response.status
+        };
+      })
+      .catch(error => console.log(error));
 }
 
 export function post(url, data, headers = null) {
