@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="723e56d5-0966-409b-b383-3a7294a2a35e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/utils/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/test.css" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/src/utils/test2.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

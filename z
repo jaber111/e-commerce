@@ -1,0 +1,302 @@
+[33mcommit b798d3bffd728363359adcb588d664067939ac0e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 39ba946 99e453d
+Author: u956856 <yjabeur@pca.ma>
+Date:   Sat Nov 2 00:26:06 2019 +0100
+
+    Merge branch 'master' of https://github.com/jaber111/e-commerce
+
+[33mcommit 39ba9469c2417c0041e0a7ddabc9fe6bcc5d2ab1[m
+Author: u956856 <yjabeur@pca.ma>
+Date:   Sat Nov 2 00:25:30 2019 +0100
+
+    rebase1
+
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex b2446db..cb7c730 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -1,10 +1,7 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+[31m-    <list default="true" id="723e56d5-0966-409b-b383-3a7294a2a35e" name="Default Changelist" comment="">[m
+[31m-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/src/utils/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/test.css" afterDir="false" />[m
+[31m-    </list>[m
+[32m+[m[32m    <list default="true" id="723e56d5-0966-409b-b383-3a7294a2a35e" name="Default Changelist" comment="" />[m
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+     <option name="SHOW_DIALOG" value="false" />[m
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />[m
+
+[33mcommit 99e453d000c12b1f83e8c59c24f89176d14d548a[m
+Author: u956856 <yjabeur@pca.ma>
+Date:   Sat Nov 2 00:23:40 2019 +0100
+
+    walo2
+
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 3efa3de..b213842 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -44,16 +44,16 @@[m
+     <property name="settings.editor.selected.configurable" value="settings.github" />[m
+   </component>[m
+   <component name="RecentsManager">[m
+[31m-    <key name="MoveFile.RECENT_KEYS">[m
+[31m-      <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\commun" />[m
+[31m-      <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\homepage\item" />[m
+[31m-    </key>[m
+     <key name="CopyFile.RECENT_KEYS">[m
+       <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\assets\img" />[m
+       <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\utils" />[m
+       <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\signUp" />[m
+       <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\signIn" />[m
+     </key>[m
+[32m+[m[32m    <key name="MoveFile.RECENT_KEYS">[m
+[32m+[m[32m      <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\commun" />[m
+[32m+[m[32m      <recent name="C:\Users\u956856\WebstormProjects\e-commerce\src\components\homepage\item" />[m
+[32m+[m[32m    </key>[m
+   </component>[m
+   <component name="RunDashboard">[m
+     <option name="ruleStates">[m
+
+[33mcommit c5e25151ac2a2dfaa9dc51e774abde0838809718[m[33m ([m[1;31morigin/devlop[m[33m, [m[1;32mdevlop[m[33m)[m
+Author: u956856 <yjabeur@pca.ma>
+Date:   Sat Nov 2 00:19:45 2019 +0100
+
+    walo
+
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 3b307b6..b2446db 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -107,7 +107,7 @@[m
+       <workItem from="1572131815284" duration="2333000" />[m
+       <workItem from="1572249641668" duration="15641000" />[m
+       <workItem from="1572336219747" duration="1966000" />[m
+[31m-      <workItem from="1572648397100" duration="912000" />[m
+[32m+[m[32m      <workItem from="1572648397100" duration="1380000" />[m
+     </task>[m
+     <servers />[m
+   </component>[m
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 6bde80b..2c448ef 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -8,6 +8,7 @@[m
+     "axios": "^0.19.0",[m
+     "firebase": "^7.2.0",[m
+     "formik": "^1.5.8",[m
+[32m+[m[32m    "husky": "^3.0.9",[m
+     "jwt-decode": "^2.2.0",[m
+     "node-sass": "^4.12.0",[m
+     "react": "^16.10.2",[m
+[1mdiff --git a/yarn.lock b/yarn.lock[m
+[1mindex 88410a7..788ec3c 100644[m
+[1m--- a/yarn.lock[m
+[1m+++ b/yarn.lock[m
+[36m@@ -1690,6 +1690,11 @@[m
+   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.14.22.tgz#34bcdf6b6cb5fc0db33d24816ad9d3ece22feea4"[m
+   integrity sha512-9taxKC944BqoTVjE+UT3pQH0nHZlTvITwfsOZqyc+R3sfJuxaTtxWjfn1K2UlxyPcKHf0rnaXcVFrS9F9vf0bw==[m
+ [m
+[32m+[m[32m"@types/normalize-package-data@^2.4.0":[m
+[32m+[m[32m  version "2.4.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"[m
+[32m+[m[32m  integrity sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==[m
+[32m+[m
+ "@types/prop-types@*":[m
+   version "15.7.3"[m
+   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"[m
+[36m@@ -4732,6 +4737,14 @@[m [mfind-up@^2.0.0, find-up@^2.1.0:[m
+   dependencies:[m
+     locate-path "^2.0.0"[m
+ [m
+[32m+[m[32mfind-up@^4.0.0:[m
+[32m+[m[32m  version "4.1.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"[m
+[32m+[m[32m  integrity sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==[m
+[32m+[m[32m  dependencies:[m
+[32m+[m[32m    locate-path "^5.0.0"[m
+[32m+[m[32m    path-exists "^4.0.0"[m
+[32m+[m
+ firebase@^7.2.0:[m
+   version "7.2.0"[m
+   resolved "https://registry.yarnpkg.com/firebase/-/firebase-7.2.0.tgz#2caa939dd941dded9c0ebf09f0e17c2c6bae92d1"[m
+[36m@@ -5006,6 +5019,11 @@[m [mget-stdin@^4.0.1:[m
+   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"[m
+   integrity sha1-uWjGsKBDhDJJAui/Gl3zJXmkUP4=[m
+ [m
+[32m+[m[32mget-stdin@^7.0.0:[m
+[32m+[m[32m  version "7.0.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-7.0.0.tgz#8d5de98f15171a125c5e516643c7a6d0ea8a96f6"[m
+[32m+[m[32m  integrity sha512-zRKcywvrXlXsA0v0i9Io4KDRaAw7+a1ZpjRwl9Wox8PFlVCCHra7E9c4kqXCoCM9nR5tBkaTTZRBoCm60bFqTQ==[m
+[32m+[m
+ get-stream@^4.0.0:[m
+   version "4.1.0"[m
+   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-4.1.0.tgz#c1b255575f3dc21d59bfc79cd3d2b46b1c3a54b5"[m
+[36m@@ -5447,6 +5465,23 @@[m [mhttps-browserify@^1.0.0:[m
+   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"[m
+   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=[m
+ [m
+[32m+[m[32mhusky@^3.0.9:[m
+[32m+[m[32m  version "3.0.9"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/husky/-/husky-3.0.9.tgz#a2c3e9829bfd6b4957509a9500d2eef5dbfc8044"[m
+[32m+[m[32m  integrity sha512-Yolhupm7le2/MqC1VYLk/cNmYxsSsqKkTyBhzQHhPK1jFnC89mmmNVuGtLNabjDI6Aj8UNIr0KpRNuBkiC4+sg==[m
+[32m+[m[32m  dependencies:[m
+[32m+[m[32m    chalk "^2.4.2"[m
+[32m+[m[32m    ci-info "^2.0.0"[m
+[32m+[m[32m    cosmiconfig "^5.2.1"[m
+[32m+[m[32m    execa "^1.0.0"[m
+[32m+[m[32m    get-stdin "^7.0.0"[m
+[32m+[m[32m    opencollective-postinstall "^2.0.2"[m
+[32m+[m[32m    pkg-dir "^4.2.0"[m
+[32m+[m[32m    please-upgrade-node "^3.2.0"[m
+[32m+[m[32m    read-pkg "^5.2.0"[m
+[32m+[m[32m    run-node "^1.0.0"[m
+[32m+[m[32m    slash "^3.0.0"[m
+[32m+[m
+ hyphenate-style-name@^1.0.3:[m
+   version "1.0.3"[m
+   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.3.tgz#097bb7fa0b8f1a9cf0bd5c734cf95899981a9b48"[m
+[36m@@ -6817,6 +6852,11 @@[m [mlevn@^0.3.0, levn@~0.3.0:[m
+     prelude-ls "~1.1.2"[m
+     type-check "~0.3.2"[m
+ [m
+[32m+[m[32mlines-and-columns@^1.1.6:[m
+[32m+[m[32m  version "1.1.6"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"[m
+[32m+[m[32m  integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=[m
+[32m+[m
+ load-json-file@^1.0.0:[m
+   version "1.1.0"[m
+   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"[m
+[36m@@ -6886,6 +6926,13 @@[m [mlocate-path@^3.0.0:[m
+     p-locate "^3.0.0"[m
+     path-exists "^3.0.0"[m
+ [m
+[32m+[m[32mlocate-path@^5.0.0:[m
+[32m+[m[32m  version "5.0.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"[m
+[32m+[m[32m  integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==[m
+[32m+[m[32m  dependencies:[m
+[32m+[m[32m    p-locate "^4.1.0"[m
+[32m+[m
+ lodash-es@^4.17.14:[m
+   version "4.17.15"[m
+   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"[m
+[36m@@ -7586,7 +7633,7 @@[m [mnopt@^4.0.1:[m
+     abbrev "1"[m
+     osenv "^0.1.4"[m
+ [m
+[31m-normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:[m
+[32m+[m[32mnormalize-package-data@^2.3.2, normalize-package-data@^2.3.4, normalize-package-data@^2.5.0:[m
+   version "2.5.0"[m
+   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"[m
+   integrity sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==[m
+[36m@@ -7829,6 +7876,11 @@[m [mopen@^6.3.0:[m
+   dependencies:[m
+     is-wsl "^1.1.0"[m
+ [m
+[32m+[m[32mopencollective-postinstall@^2.0.2:[m
+[32m+[m[32m  version "2.0.2"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"[m
+[32m+[m[32m  integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==[m
+[32m+[m
+ opn@^5.1.0:[m
+   version "5.5.0"[m
+   resolved "https://registry.yarnpkg.com/opn/-/opn-5.5.0.tgz#fc7164fab56d235904c51c3b27da6758ca3b9bfc"[m
+[36m@@ -7944,7 +7996,7 @@[m [mp-limit@^1.1.0:[m
+   dependencies:[m
+     p-try "^1.0.0"[m
+ [m
+[31m-p-limit@^2.0.0:[m
+[32m+[m[32mp-limit@^2.0.0, p-limit@^2.2.0:[m
+   version "2.2.1"[m
+   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.2.1.tgz#aa07a788cc3151c939b5131f63570f0dd2009537"[m
+   integrity sha512-85Tk+90UCVWvbDavCLKPOLC9vvY8OwEX/RtKF+/1OADJMVlFfEHOiMTPVyxg7mk/dKa+ipdHm0OUkTvCpMTuwg==[m
+[36m@@ -7965,6 +8017,13 @@[m [mp-locate@^3.0.0:[m
+   dependencies:[m
+     p-limit "^2.0.0"[m
+ [m
+[32m+[m[32mp-locate@^4.1.0:[m
+[32m+[m[32m  version "4.1.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"[m
+[32m+[m[32m  integrity sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==[m
+[32m+[m[32m  dependencies:[m
+[32m+[m[32m    p-limit "^2.2.0"[m
+[32m+[m
+ p-map@^1.1.1:[m
+   version "1.2.0"[m
+   resolved "https://registry.yarnpkg.com/p-map/-/p-map-1.2.0.tgz#e4e94f311eabbc8633a1e79908165fca26241b6b"[m
+[36m@@ -8040,6 +8099,16 @@[m [mparse-json@^4.0.0:[m
+     error-ex "^1.3.1"[m
+     json-parse-better-errors "^1.0.1"[m
+ [m
+[32m+[m[32mparse-json@^5.0.0:[m
+[32m+[m[32m  version "5.0.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-5.0.0.tgz#73e5114c986d143efa3712d4ea24db9a4266f60f"[m
+[32m+[m[32m  integrity sha512-OOY5b7PAEFV0E2Fir1KOkxchnZNCdowAJgQ5NuxjpBKTRP3pQhwkrkxqQjeoKJ+fO7bCpmIZaogI4eZGDMEGOw==[m
+[32m+[m[32m  dependencies:[m
+[32m+[m[32m    "@babel/code-frame" "^7.0.0"[m
+[32m+[m[32m    error-ex "^1.3.1"[m
+[32m+[m[32m    json-parse-better-errors "^1.0.1"[m
+[32m+[m[32m    lines-and-columns "^1.1.6"[m
+[32m+[m
+ parse5@4.0.0:[m
+   version "4.0.0"[m
+   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"[m
+[36m@@ -8082,6 +8151,11 @@[m [mpath-exists@^3.0.0:[m
+   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"[m
+   integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=[m
+ [m
+[32m+[m[32mpath-exists@^4.0.0:[m
+[32m+[m[32m  version "4.0.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"[m
+[32m+[m[32m  integrity sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==[m
+[32m+[m
+ path-is-absolute@^1.0.0:[m
+   version "1.0.1"[m
+   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"[m
+[36m@@ -8208,6 +8282,13 @@[m [mpkg-dir@^3.0.0:[m
+   dependencies:[m
+     find-up "^3.0.0"[m
+ [m
+[32m+[m[32mpkg-dir@^4.2.0:[m
+[32m+[m[32m  version "4.2.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"[m
+[32m+[m[32m  integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==[m
+[32m+[m[32m  dependencies:[m
+[32m+[m[32m    find-up "^4.0.0"[m
+[32m+[m
+ pkg-up@2.0.0:[m
+   version "2.0.0"[m
+   resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-2.0.0.tgz#c819ac728059a461cab1c3889a2be3c49a004d7f"[m
+[36m@@ -8215,6 +8296,13 @@[m [mpkg-up@2.0.0:[m
+   dependencies:[m
+     find-up "^2.1.0"[m
+ [m
+[32m+[m[32mplease-upgrade-node@^3.2.0:[m
+[32m+[m[32m  version "3.2.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/please-upgrade-node/-/please-upgrade-node-3.2.0.tgz#aeddd3f994c933e4ad98b99d9a556efa0e2fe942"[m
+[32m+[m[32m  integrity sha512-gQR3WpIgNIKwBMVLkpMUeR3e1/E1y42bqDQZfql+kDeXd8COYfM8PQA4X6y7a8u9Ua9FHmsrrmirW2vHs45hWg==[m
+[32m+[m[32m  dependencies:[m
+[32m+[m[32m    semver-compare "^1.0.0"[m
+[32m+[m
+ pn@^1.1.0:[m
+   version "1.1.0"[m
+   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"[m
+[36m@@ -9504,6 +9592,16 @@[m [mread-pkg@^3.0.0:[m
+     normalize-package-data "^2.3.2"[m
+     path-type "^3.0.0"[m
+ [m
+[32m+[m[32mread-pkg@^5.2.0:[m
+[32m+[m[32m  version "5.2.0"[m
+[32m+[m[32m  resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-5.2.0.tgz#7bf295438ca5a33e56cd30e053b34ee7250c93cc"[m
+[32m+[m[32m  integrity sha512-Ug69mNOpfvKDAc2Q8DRpMjjzdtrnv9HcSMX+4VsZxD1aZ6ZzrIE7rlzXBtWTyhULSMKg076AW6WR5iZpD0JiOg==[m
+[32m+[m[32m  dependencies:[m
+[32m+[m[32m    "@types/normalize-package-data" "^2.4.0"[m
+[32m+[m[32m    normalize-package-data "^2.5.0"[m
+[32m+[m[32m    parse-json "^5.0.0"[m
+[32m+[m[32m    type-fest "^0.6.0"[m
+[32m+[m
+ "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, rea
