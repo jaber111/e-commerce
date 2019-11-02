@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723e56d5-0966-409b-b383-3a7294a2a35e" name="Default Changelist" comment="">
+    <list default="true" id="723e56d5-0966-409b-b383-3a7294a2a35e" name="Default Changelist" comment="add test3 in devlop1">
+      <change afterPath="$PROJECT_DIR$/src/utils/test3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/test.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="devlop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,6 +108,7 @@
       <workItem from="1572249641668" duration="15641000" />
       <workItem from="1572336219747" duration="1966000" />
       <workItem from="1572648397100" duration="1380000" />
+      <workItem from="1572715115353" duration="561000" />
     </task>
     <servers />
   </component>
@@ -126,6 +127,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add test3 in devlop1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test3 in devlop1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
