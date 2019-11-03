@@ -107,6 +107,14 @@
       <workItem from="1572648397100" duration="1380000" />
       <workItem from="1572715115353" duration="561000" />
     </task>
+    <task id="LOCAL-00001" summary="walo">
+      <created>1572817524011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572817524011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add test3 in devlop1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test3 in devlop1" />
+    <MESSAGE value="walo" />
+    <option name="LAST_COMMIT_MESSAGE" value="walo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
